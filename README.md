@@ -16,11 +16,11 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Breve descrição sobre seu projeto: 
 
 
-## Print do esboço criada
+## Print da home-page criada
 
 ![<<  COLOQUE A IMAGEM AQUI >>](public/imgs/tela.jpg)
 
 
-## Print da home-page criada
+## Print do esboço criada
 
 ![<<  COLOQUE A IMAGEM AQUI >>](public/imgs/esboço.jpg)
