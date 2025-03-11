@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafael Ramaldes - Catálogo de FIlmes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Voltar ao Início</a></li>
+        <li><a href="movies.html">Minha Lista</a></li>
+      </ul>
+      <form action="#" method="GET">
+        <input type="text" placeholder="Pesquisar filme..." name="search">
+        <button type="submit">Pesquisar</button>
+      </form>
+    </nav>
+  </header>
+
+  <section class="filtros">
+    <h2>Filtros</h2>
+    <form>
+      <label for="genero">Gênero</label>
+      <select id="genero" name="genero">
+        <option value="acao">Ação</option>
+        <option value="comedia">Comédia</option>
+        <option value="drama">Drama</option>
+        <option value="ficcao cientifica">Ficção Científica</option>
+        <option value="terror">Terror</option>
+        <option value="documentario">Documentário</option>
+        <option value="romance">Romance</option>
+      </select>
+
+
+      <button type="submit">Filtrar</button>
+    </form>
+  </section>
+
+  <section class="lista-filmes">
+    <h2>Lista de Filmes</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="imgs/sapo.jpeg" alt="Capa A Princesa e o Sapo">
+        <p><a href="princesa.html">A Princesa e o Sapo</a></p>
+      </div>
+      <div class="card">
+        <img src="imgs/velozes.jpeg" alt="Capa Velozes e Furiosos">
+        <p><a href="velozes.html">Velozes e Furiosos</a></p>
+      </div>
+      <div class="card">
+        <img src="imgs/zoo.jpeg" alt="capa zootopia">
+        <p><a href="zoo.html">Zootopia</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Rafael Ramaldes - Catálogo de Filmes</p>
+  </footer>
+</body>
+</html>

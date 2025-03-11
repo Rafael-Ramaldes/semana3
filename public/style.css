@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header form {
+    display: flex;
+    align-items: center;
+  }
+  
+  header input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  section {
+    margin-top: 100px;
+  }
+  
+  .destaques .grid, .lista-filmes .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .detalhes-filme {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .detalhes-imagem img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .detalhes-info {
+    max-width: 600px;
+  }
+  
+  .favoritar {
+    background-color: #007bff;
+  }
+  
+  .favoritar:hover {
+    background-color: #0056b3;
+  }
+  
